@@ -1,0 +1,40 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: cornflowerblue;
+    font-size: 80px;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: brown;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    padding: 20px;
+}
+article{
+    background-color: darksalmon;
+    padding: 20px;
+    font-size: 40px;
+    height: 100px;
+}
+footer{
+    background-color: darkgreen;
+    height: 100px;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width=600px){
+    nav , article{
+        width: 100%;
+        height: auto;
+    }
+    header{
+        font-size: 60px;
+    }
+}
